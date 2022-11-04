@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <div>
-      hello from de NavBar
+      hello again from de NavBar
     </div>
   )
 }
