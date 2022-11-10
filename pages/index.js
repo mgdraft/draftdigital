@@ -12,8 +12,10 @@ export default function Home() {
         <meta name="description" content="draft digital" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className="min-h-screen">
+        <div className="gradient-bg-welcome">
         <NavBar />
+        </div>
       </div>
     </div>
   );
