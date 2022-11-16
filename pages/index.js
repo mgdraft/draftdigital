@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import NavBar from "./NavBar";
-
+import Welcome from "./Welcome";
 
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
       <div className="min-h-screen">
         <div className="gradient-bg-welcome">
         <NavBar />
+        <Welcome />
         </div>
       </div>
     </div>
