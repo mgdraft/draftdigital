@@ -13,7 +13,7 @@ export default function NavBar() {
         <li className="mx-4 cursor-pointer">services</li>
         <li className="mx-4 cursor-pointer">blog</li>
         <li className="mx-4 cursor-pointer">contact us</li>
-        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">alpaca rookie</li>
+        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">wallet</li>
       </ul>
     </div>
   )
