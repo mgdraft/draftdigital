@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import NavBar from "./NavBar";
 import Welcome from "./Welcome";
+import Services from "./Services";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <NavBar />
         <Welcome />
         </div>
+        <Services />
       </div>
     </div>
   );
