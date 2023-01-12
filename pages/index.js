@@ -4,7 +4,6 @@ import NavBar from "./NavBar";
 import Welcome from "./Welcome";
 import Services from "./Services";
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,8 +14,8 @@ export default function Home() {
       </Head>
       <div className="min-h-screen">
         <div className="gradient-bg-welcome">
-        <NavBar />
-        <Welcome />
+          <NavBar />
+          <Welcome />
         </div>
         <Services />
       </div>
